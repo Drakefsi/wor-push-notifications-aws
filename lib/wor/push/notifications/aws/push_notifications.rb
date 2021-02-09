@@ -1,7 +1,7 @@
 require 'wor/push/notifications/aws/android_push_json_builder'
 require 'wor/push/notifications/aws/ios_push_json_builder'
 require 'wor/push/notifications/aws/validators/push_notifications_validator'
-require 'aws-sdk-rails'
+require 'aws-sdk-sns'
 
 module Wor
   module Push
