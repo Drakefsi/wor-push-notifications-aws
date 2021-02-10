@@ -6,3 +6,4 @@ require 'wor/push/notifications/aws/exceptions'
 require 'rails'
 
 require 'byebug'
+require 'aws-sdk-sns'
